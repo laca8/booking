@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+.navbar .navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navContainer .logo{
+  font-weight: 500;
+}
+
+.navbar .navContainer .navButton{
+ margin-left: 20px;
+ border: none;
+ padding: 5px 10px;
+ cursor: pointer;
+ color: #003580;
+}
+/*header*/
+.header{
+  background-color: #003580;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.headerContainer{
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0 100px 0;
+}
+.headerList{
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.headerListItem{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerListItem.active{
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+.headerDesc{
+  margin: 20px 0;
+}
+.headerBtn{
+  background-color: #0071c2;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.headerSearch{
+  height: 30px;
+  padding: 10px 0;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #fff;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+  color: lightgray;
+}
+.headerIcon{
+  color: lightgray;
+}
